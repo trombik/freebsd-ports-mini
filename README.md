@@ -3,6 +3,7 @@
 This is a stripped version of port tree with the following ports:
 
 * ports-mgmt/portmaster
+* ports-mgmt/pkg
 
 The tree is intended for testing, without downloading the entire copy of the
 official ports tree.
@@ -37,13 +38,12 @@ git add .
 git commit
 ```
 
-Then, push the branch. Do not merge your branch into `master`.
+Then, push the branch. Do not merge the branch into `master`.
 
 ## Modifying the code, not the trees
 
-When you need modifying the code, such as `README.reallyenglish.md` or
-`update.sh`, create a branch from the `master`, follow the procedures described
-in [Creating_Issue](https://github.com/reallyenglish/ansible-role-example/tree/master/docs/Procedures/Creating_Issue)
+When you need to modify the code, such as `README.md` or `update.sh`, create a
+branch from the `master`, follow the procedures described in [Creating_Issue](https://github.com/reallyenglish/ansible-role-example/tree/master/docs/Procedures/Creating_Issue)
 and [Creating_Pull_Request](https://github.com/reallyenglish/ansible-role-example/tree/master/docs/Procedures/Creating_Pull_Request).
 
 The `master` must not be updated with ports tree.
@@ -54,5 +54,5 @@ Use the mini ports tree when you need to build a port, but do not care of
 which, and you need to run successful build process.
 
 Do not use `master` branch, which is supposed to be empty except
-`README.reallyenglish.md` and a support script. Use branches which are a
+`README.md` and a support script. Use branches which are a
 snapshot of the official ports tree at a certain date.
