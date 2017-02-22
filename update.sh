@@ -2,7 +2,7 @@
 
 SVN_BASE=http://svn.freebsd.org/ports/head
 
-FILES="Mk Templates Keywords Tools ports-mgmt/portmaster"
+FILES="Mk Templates Keywords Tools ports-mgmt/pkg ports-mgmt/portmaster"
 
 svn checkout ${SVN_BASE} . --depth immediates
 
