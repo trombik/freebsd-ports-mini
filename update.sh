@@ -2,7 +2,7 @@
 
 SVN_BASE=http://svn.freebsd.org/ports/head
 
-FILES="Mk Templates Keywords Tools lang/python27 ports-mgmt/pkg ports-mgmt/portmaster"
+FILES="Mk Templates Keywords Tools lang/python27 lang/python36 ports-mgmt/pkg ports-mgmt/portmaster"
 
 svn checkout ${SVN_BASE} . --depth immediates
 
